@@ -1,22 +1,37 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState, type MouseEvent } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'About', href: '#' },
-  { name: 'Project', href: '#' },
-  { name: 'Learning', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'About', href: '#about' },
+  { name: 'Project', href: '#projects' },
+  { name: 'Learning', href: '#learning' },
+  { name: 'Contact', href: '#contact' },
 ]
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect (() => {
+    const handleScroll = () => setIsScrolled(window.scrollY > 16);
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  } , []);
 
   return (
     <div className="bg-gray-900">
-      <header className="absolute inset-x-0 top-0 z-50">
+      <header className={`fixed inset-x-0 top-0 z-50 border-b transition-all duration-300 ${
+        isScrolled 
+        ? "border-white/10 bg-gray-950/15 shadow-lg shadow-black/10 backdrop-blur-xl"
+        : "border-transparent bg-transparent"
+      } `}
+      >
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
