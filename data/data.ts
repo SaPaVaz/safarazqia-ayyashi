@@ -13,31 +13,31 @@ import {
 import type { About, Profile, Stats, Project, Learning, Contact, } from "./types";
 
 export const profile: Profile = {
-    role: "Content Creator & Programmer",
+    role: "Content Creator & Designer & Developer",
     name: "Safaraz Qia",
-    overview: "I am a passionate frontend developer with experience in creating modern web applications.",
+    overview: "I am a passionate frontend developer with experience in creating modern web applications, and I am a new content creator.",
     cvUrl: "https://example.com/cv",
     watsappUrl: "https://wa.me/1234567890"
 };
 
 export const about: About = {
     heading: "Story With Passion",
-    description: "I am a frontend developer with a strong passion for creating beautiful and functional web applications. I have experience in various frontend technologies and frameworks.",
+    description: "I am a content creator and developer but I am focused to be a content creator, and post in instagram, tiktok, and I am a developer, and I am focused to be a developer, and post in github and post in vercel.com .",
     skills: [
         {
             icon: GlobeAltIcon,
             title: "Content Creator",
-            description: "I specialize in creating engaging content for various platforms.",
+            description: "I am focused to, Content Creator, and I want up my account in instagram.",
         },
         {
             icon: CircleStackIcon,
             title: "Developer",
-            description: "I specialize in building engaging, dev-focused content across various platforms and tech ecosystems.",
+            description: "I am just student a developer, and make web aplication like website portofolio and other web aplication, and I want up my skill in developer.",
         },
         {
             icon: CloudIcon,
-            title: "Content Creator",
-            description: "I specialize in creating engaging content for various platforms.",
+            title: "Designer",
+            description: "I am a just beginner designer, and I want up my skill again in designer.",
         },
     ],
     imageUrl: "/img/2.png"
@@ -64,7 +64,7 @@ export const projects: Project = {
         {
             title: "Project 1",
             description: "Description of Project 1",
-            imageUrl: "/img/1.png",
+            imageUrl: "/img/7.png",
             projectUrl: "https://example.com/project1"
         },
         {
@@ -99,7 +99,7 @@ export const learning: Learning = {
         },
         {
             icon: AcademicCapIcon,
-            title: "Jaz Academy CoursesDeveloper",
+            title: "Jaz Academy Courses Developer",
             description: "I am a developer for Jaz Academy courses, where I contribute to the development of educational content and resources for learners.",
         },
         {
