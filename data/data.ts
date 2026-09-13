@@ -22,7 +22,7 @@ export const profile: Profile = {
 
 export const about: About = {
     heading: "Story With Passion",
-    description: "I am a content creator and developer but I am focused to be a content creator, and post in instagram, tiktok, and I am a developer, and I am focused to be a developer, and post in github and post in vercel.com .",
+    description: "I am focused to be a content creator and I am make content for I post in Instagram",
     skills: [
         {
             icon: GlobeAltIcon,
@@ -59,7 +59,7 @@ export const stats: Stats[] = [
 ];
 
 export const projects: Project = {
-    heading: "My Projects",
+    heading: "My Project in Scholl",
     items: [
         {
             title: "Project 1",
@@ -70,19 +70,19 @@ export const projects: Project = {
         {
             title: "Project 2",
             description: "Description of Project 1",
-            imageUrl: "/img/2.png",
+            imageUrl: "/img/8.png",
             projectUrl: "https://example.com/project1"
         },
         {
             title: "Project 3",
             description: "Description of Project 1",
-            imageUrl: "/img/3.jpg",
+            imageUrl: "/img/5.png",
             projectUrl: "https://example.com/project1"
         },
         {
             title: "Project 4",
             description: "Description of Project 1",
-            imageUrl: "/img/3.jpg",
+            imageUrl: "/img/6.png",
             projectUrl: "https://example.com/project1"
         },
     ],
@@ -90,7 +90,7 @@ export const projects: Project = {
 
 export const learning: Learning = {
     heading: "Learning",
-    description: "I am constantly learning and improving my skills in frontend development.",
+    description: "I am constantly learning and improving my skills in frontend development, content developer, and designer.",
     items: [
         {
             icon: BuildingLibraryIcon,
@@ -123,9 +123,9 @@ export const contact: Contact = {
     address: "123 Main St, City, Country",
     socialLinks: [
         {
-            icon: PlayIcon,
-            platform: "Website",
-            url: "https://example.com"
+            icon: UserCircleIcon,
+            platform: "Instagram",
+            url: "https://www.instagram.com/safaraz__qy/"
         },
         {
             icon: PlayIcon,
@@ -134,8 +134,8 @@ export const contact: Contact = {
         },
         {
             icon: PlayIcon,
-            platform: "Twitter",
-            url: "https://twitter.com/example"
+            platform: "GitHub",
+            url: "https://github.com/SaPaVaz"
         },
     ]
 }
