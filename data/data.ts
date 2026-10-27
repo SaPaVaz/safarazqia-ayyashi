@@ -1,5 +1,4 @@
 import { 
-    PlayIcon, 
     GlobeAltIcon, 
     CircleStackIcon, 
     CloudIcon, 
@@ -128,12 +127,12 @@ export const contact: Contact = {
             url: "https://www.instagram.com/safaraz__qy/"
         },
         {
-            icon: PlayIcon,
+            icon: CircleStackIcon,
             platform: "LinkedIn",
             url: "https://linkedin.com/in/example"
         },
         {
-            icon: PlayIcon,
+            icon: UserCircleIcon,
             platform: "GitHub",
             url: "https://github.com/SaPaVaz"
         },
