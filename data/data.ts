@@ -116,7 +116,7 @@ export const learning: Learning = {
 
 export const contact: Contact = {
     heading: "Contact Me",
-    description: "Feel free to reach out to me for any inquiries or collaborations opportunities.",
+    description: "Got something in mind? Let’s talk! I’m always open to new ideas and opportunities.",
     email: "safarazqiaa@gmail.com",
     phone: "+62 851-3579-1453",
     address: "123 Main St, City, Country",
